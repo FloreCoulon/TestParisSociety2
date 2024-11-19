@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: #494444fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar .nav-link:hover,
+.navbar-brand:hover {
+    color: #DDC1B3;
+}
+
+.navbar .nav-link i {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover i {
+    color: #DDC1B3;
+}
+
+.navbar .dropdown-menu {
+    background-color: #494444fa;
+    border: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #DDC1B3;
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #494444fa;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #494444fa;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.text-center {
+    font-size: 1rem;
+    color: #494444fa;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.square-image {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+}
+
+.about .col-md-4 {
+    text-align: center;
+}
+
+.about .col-md-8 {
+    text-align: justify;
+}
+
+.text-muted {
+    font-size: 1rem;
+    color: #494444fa;
+}
+
+.join-us .col-md-4 {
+    text-align: center;
+}
+
+.join-us .col-md-8 {
+    text-align: justify;
+}
+
+.uniform-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+}
